@@ -1,5 +1,5 @@
 .dropdown-menu {
-  background-color: #212529; 
+  background-color: #212529;
 }
 
 .dropdown-item {
@@ -13,8 +13,6 @@
   color: #e2edff;
   text-shadow: 2px 2px 2px black;
 }
-
-
 
 #about {
   background-image: url(./img/quino-al-mBQIfKlvowM-unsplash.jpg);
@@ -72,3 +70,10 @@ footer a {
   text-decoration: none;
 }
 
+.now {
+  height: 350px;
+}
+
+.old {
+  height: 470px;
+}
