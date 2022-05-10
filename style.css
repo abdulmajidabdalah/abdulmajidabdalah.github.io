@@ -1,3 +1,11 @@
+.dropdown-menu {
+  background-color: #212529; 
+}
+
+.dropdown-item {
+  color: white;
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-image: url(./img/background2.jpg);
@@ -58,5 +66,9 @@
 
 section {
   padding-top: 5rem;
+}
+
+footer a {
+  text-decoration: none;
 }
 
