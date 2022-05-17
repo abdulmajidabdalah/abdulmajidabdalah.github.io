@@ -6,17 +6,23 @@
   color: white;
 }
 
+#home,
+#old,
+#now,
+#with-friends {
+  background-image: url(/img/bg.webp);
+  background-size: cover;
+  font-family: "Arial Narrow Bold", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
 .jumbotron {
   padding-top: 6rem;
-  background-image: url(./img/background2.jpg);
-  background-size: cover;
-  color: #e2edff;
-  text-shadow: 2px 2px 2px black;
 }
 
 #about {
-  background-image: url(./img/quino-al-mBQIfKlvowM-unsplash.jpg);
-  background-size: cover;
   margin-top: -1rem;
 }
 
@@ -26,8 +32,6 @@
 }
 
 #lihat {
-  background-image: url(./img/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
-  background-size: cover;
   margin-top: -3rem;
 }
 
@@ -38,29 +42,6 @@
 #about h3 {
   margin-top: -15px;
 }
-
-#projects {
-  background-image: url(./img/background.jpg);
-  background-size: cover;
-}
-
-#contact {
-  background-image: url(./img/background3.jpg);
-  background-size: cover;
-}
-
-#video {
-  background-image: url(/img/background2.jpg);
-  background-size: cover;
-}
-
-/* #projects img {
-  border-radius: 20pt;
-  -webkit-border-radius: 20pt;
-  -moz-border-radius: 20pt;
-  -ms-border-radius: 20pt;
-  -o-border-radius: 20pt;
-} */
 
 section {
   padding-top: 5rem;
@@ -76,4 +57,63 @@ footer a {
 
 .old {
   height: 470px;
+}
+
+.card,
+.row img {
+  border: 2px solid white;
+}
+
+.card {
+  background: transparent;
+}
+
+.card .btn {
+  background: white;
+  color: black;
+}
+
+.card:hover {
+  background-color: black;
+}
+
+.btn:hover {
+  letter-spacing: 0.3rem;
+}
+
+h2 a i {
+  color: white;
+  font-size: larger;
+}
+
+h2 a .fa-tiktok:hover {
+  color: black;
+}
+
+h2 a .fa-facebook:hover {
+  color: rgb(25, 104, 223);
+}
+
+h2 a .fa-instagram:hover {
+  color: rgb(240, 43, 17);
+}
+
+h2 a .fa-github:hover {
+  color: black;
+}
+
+h2 a .fa-telegram:hover {
+  color: rgb(11, 46, 243);
+}
+
+h2 a .fa-twitter:hover {
+  color: rgb(29, 185, 206);
+}
+
+img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
