@@ -16,6 +16,14 @@
   color: white;
 }
 
+nav a {
+  text-transform: uppercase;
+}
+
+.dropdown-item {
+  color: white;
+}
+
 .heading {
   color: white;
   font-size: 40px;
@@ -111,6 +119,19 @@
 .container .video-list .vid .title {
   color: black;
   font-size: 12px;
+}
+
+footer p .bi-heart-fill {
+  color: white;
+}
+
+footer p .bi-heart-fill:hover {
+  color: red;
+  cursor: pointer;
+}
+
+footer p {
+  text-transform: uppercase;
 }
 
 @media (max-width: 991px) {
