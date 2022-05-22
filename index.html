@@ -21,11 +21,12 @@
 
     <title>My Profile | Abdul Majid Abdalah</title>
   </head>
-  <body id="home">
+  <body id="home" onload="setInterval('tampilkanWaktu()', 1000);">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i> MY GALLERY</a>
+        <div id="jam"></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,16 +45,21 @@
                 <li><a class="dropdown-item" href="/old/index.html">Old</a></li>
                 <li><a class="dropdown-item" href="/video/index.html">Videos</a></li>
                 <li><a class="dropdown-item" href="/otherProjects/index.html">Other Projects</a></li>
-          </ul>
-        </div>
-      </div>
+              </ul>
+            </div>
+          </div>
     </nav>
+    
     <!-- Akhir Navbar -->
+    
+
+    
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/15.jpeg" alt="Abdul Majid" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Abdul Majid Abdalah</h1>
       <p class="lead"></p>
+      
     </section>
     <!-- Akhir Jumbotron -->
 
@@ -62,7 +68,7 @@
         <div class="container">
             <div class="row text-center mt-2">
                 <div class="col">
-                    <h2 class="socmed">Follow Me</h2>
+                    <h2 class="socmed">Follow</h2>
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center mb-5">
@@ -175,6 +181,8 @@
 
     <script src="/sweetalert/dist/sweetalert2.all.min.js"></script>
 
+    <script src="app.js"></script>
+
     <script>
         Swal.fire(
         'DISCLAIMER',
@@ -187,7 +195,7 @@
     <script>
       gsap.registerPlugin(TextPlugin);
       gsap.to('.lead', {
-        duration: 3, delay: 3, text: 'Hallo everyone. Welcome to my Gallery <i class="fa-solid fa-face-smile"></i>'
+        duration: 3, delay: 3, text: 'Hallo.. Welcome to my Gallery <i class="fa-solid fa-face-smile"></i>'
       });
       gsap.from('.display-4', {duration: 3, delay: 3, y: -50, opacity: 0, ease: 'bounce'});
     </script>
