@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 .dropdown-menu {
-  background-color: #212529;
+    background-color: #212529;
 }
 
 .dropdown-item {
-  color: white;
+    color: #FAC213;
 }
 
-nav a {
-  text-transform: uppercase;
+.nav-link {
+    text-transform: uppercase;
+    color: #FAC213 !important;
+}
+
+.logo-satu {
+    font-family: 'Henny Penny', cursive;
+    color: #37E2D5;
+}
+
+.logo-dua {
+    font-family: 'Henny Penny', cursive;
+    color: #FAC213;
 }
 
 #home,
@@ -15,128 +29,173 @@ nav a {
 #now,
 #with-friends,
 #karya {
-  background-image: url(/img/bg.webp);
-  background-size: cover;
-  font-family: "Arial Narrow Bold", sans-serif;
-  padding: 0;
-  margin: 0;
-  color: white;
+    background-image: url(/img/bg.webp);
+    background-size: cover;
+    font-family: 'Secular One', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
 .jumbotron {
-  padding-top: 6rem;
+    padding-top: 6rem;
+}
+
+.jumbotron img {
+    border: 2px solid #FAC213;
 }
 
 #about {
-  margin-top: -1rem;
+    margin-top: -1rem;
 }
 
 #about .container {
-  color: white;
-  margin-top: -60px;
+    color: white;
+    margin-top: -60px;
 }
 
 #lihat {
-  margin-top: -3rem;
+    margin-top: -3rem;
 }
 
 #lihat .container {
-  margin-top: -2rem;
+    margin-top: -2rem;
 }
 
 #about h3 {
-  margin-top: -15px;
+    margin-top: -15px;
 }
 
 section {
-  padding-top: 5rem;
+    padding-top: 5rem;
 }
 
 footer a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .now {
-  height: 350px;
+    height: 350px;
 }
 
 .old {
-  height: 470px;
+    height: 470px;
 }
 
 .card,
 .row img {
-  border: 2px solid white;
+    border: 2px solid white;
 }
 
 .card {
-  background: transparent;
+    background: transparent;
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    height: 200px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.card h3 {
+    padding-top: 1rem;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 
 .card .btn {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    padding: .6rem 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-family: 'Secular One', sans-serif;
 }
 
 .card:hover {
-  background-color: black;
+    background-color: black;
 }
 
 .btn:hover {
-  letter-spacing: 0.3rem;
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
+    letter-spacing: 0.3rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
 h2 a i {
-  color: white;
-  font-size: larger;
+    color: white;
+    font-size: larger;
 }
 
 h2 a .fa-tiktok:hover {
-  color: black;
+    color: black;
 }
 
 h2 a .fa-facebook:hover {
-  color: rgb(25, 104, 223);
+    color: rgb(25, 104, 223);
 }
 
 h2 a .fa-instagram:hover {
-  color: rgb(240, 43, 17);
+    color: rgb(240, 43, 17);
 }
 
 h2 a .fa-github:hover {
-  color: black;
+    color: black;
 }
 
 h2 a .fa-telegram:hover {
-  color: rgb(11, 46, 243);
+    color: rgb(11, 46, 243);
 }
 
 h2 a .fa-twitter:hover {
-  color: rgb(29, 185, 206);
+    color: rgb(29, 185, 206);
+}
+
+img {
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
 }
 
 img:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
+
+.card-other {
+    height: 400px;
+}
+
 
 /* footer style */
 
 footer p .bi-heart-fill {
-  color: white;
+    color: white;
 }
 
 footer p .bi-heart-fill:hover {
-  color: red;
-  cursor: pointer;
+    color: red;
+    cursor: pointer;
 }
 
 footer p {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
